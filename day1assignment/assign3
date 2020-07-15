@@ -1,0 +1,17 @@
+1 Numbers.
+    The number type represents both integer and floating point numbers.
+2 Bigint.
+    sometimes we need really big numbers ,it represent integers of arbitrary length.
+3 String.
+    A string in JavaScript must be surrounded by quotes.
+    eg.let str = "Hello";
+4 Boolean.
+    The boolean type has only two values: true and false.This type is commonly used to store yes/no values: true means “yes, correct”, and false means “no, incorrect”.
+5 Objects.
+    The object type is special.In contrast, objects are used to store collections of data and more complex entities.
+6 Symbols
+    The symbol type is used to create unique identifiers for objects. We have to mention it here for the sake of completeness, but also postpone the details till we know objects.
+7 The “null” value.
+    The special null value does not belong to any of the types described above.
+8 The “undefined” value.
+    The special value undefined also stands apart. It makes a type of its own, just like null.
