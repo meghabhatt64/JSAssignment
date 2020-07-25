@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title> 
+		
+	</title> 
+	
+	<script type="text/javascript"> 
+        var end = prompt("Please enter the end num ");
+        primeFactorsTo(end)
+        
+	
+		// Function to check for prime number 
+		function primeFactorsTo(max)
+        {
+            var store  = [], i, j, primes = [];
+            for (i = 2; i <= max; ++i) 
+                {
+                if (!store [i]) 
+                    {
+                    primes.push(i);
+                    for (j = i << 1; j <= max; j += i) 
+                        {
+                        store[j] = true;
+                    }
+                }
+            }
+            console.log(primes);
+        }
+		
+		 
+	</script> 
+</head> 
+
+<body> 
+    
+</body> 
+
+</html>								 
